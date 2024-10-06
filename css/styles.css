@@ -1,0 +1,156 @@
+.product_info .data .features
+{
+    width: 644px;
+    max-width: 100%;
+    margin-top: 32px;
+}
+
+
+.product_info .data .features .title
+{
+    font-size: 22px;
+    font-weight: 500;
+
+    margin-bottom: 24px;
+}
+
+
+.product_info .data .features .items > *
+{
+    font-size: 15px;
+    line-height: 140%;
+
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding-top: 15px;
+
+    border-top: 1px solid #d4d4d4;
+}
+
+
+.product_info .data .features .items > * + *
+{
+    margin-top: 15px;
+}
+
+
+.product_info .data .features .label
+{
+    font-weight: 500;
+
+    width: 271px;
+    max-width: 100%;
+}
+
+
+.product_info .data .features .val
+{
+    width: calc(100% - 291px);
+}
+
+
+
+@media (max-width: 1239px)
+{
+    .product_info .data .features
+    {
+        margin-top: 24px;
+    }
+
+
+    .product_info .data .features .label
+    {
+        width: 240px;
+    }
+
+
+    .product_info .data .features .val
+    {
+        width: calc(100% - 260px);
+    }
+}
+
+
+@media (max-width: 1023px)
+{
+    .product_info .data .features
+    {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 767px)
+{
+    .product_info .data .features .title
+    {
+        font-size: 18px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .product_info .data .features .items
+    {
+        width: calc(100% + 40px);
+        max-width: calc(100% + 40px);
+        margin: 0 -20px;
+    }
+
+
+    .product_info .data .features .items > *
+    {
+        font-size: 14px;
+
+        padding: 9px 20px;
+    }
+
+
+    .product_info .data .features .items > *:nth-child(2n+1)
+    {
+        background: #f2f2f2;
+    }
+
+
+    .product_info .data .features .items > * + *
+    {
+        margin-top: 0;
+    }
+
+
+    .product_info .data .features .label
+    {
+        width: 100%;
+    }
+
+
+    .product_info .data .features .val
+    {
+        width: 256px;
+        max-width: 100%;
+        margin-top: 4px;
+    }
+}
+
+
+
+@media (max-width: 479px)
+{
+    .product_info .data .features .title
+    {
+        font-size: 14px;
+        font-weight: 700;
+
+        margin-bottom: 12px;
+    }
+
+
+    .product_info .data .features .items > *
+    {
+        font-size: 12px;
+    }
+}
